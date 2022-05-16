@@ -1,0 +1,16 @@
+.arrow-right{
+    position: fixed;
+    top: 45vh;
+    right: 2vw;
+}
+
+.arrow-left{
+    position: fixed;
+    top: 45vh;
+    left: 2vw;
+}
+
+.botton-self:hover {
+    background-color: rgba(103, 99, 99, 0.2);
+    opacity: 0.8;
+}

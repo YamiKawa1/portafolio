@@ -1,0 +1,8 @@
+.navbar-self{
+   width: 100%;
+}
+
+.navbar-self>nav>ul{
+    display: inline;
+    list-style: none;
+}

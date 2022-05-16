@@ -1,0 +1,56 @@
+.media {
+    position: fixed;
+    top: 30vh;
+}
+
+.media>small {
+    padding-left: 5px;
+    color: #8a8a8a
+}
+
+.media>ul {
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+}
+
+.media>ul>li {
+    height: 50px;
+    width: 50px;
+    display: flex;
+}
+
+.media>ul>li:hover {
+    width: 70px;
+    animation-name: extends;
+    animation-duration: .75s;
+} 
+
+.media>ul>li>a {
+    width: inherit;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+
+.facebook {
+    background-color:#3b5998 ;
+}
+
+.github {
+    background-color: #4e545a;
+}
+
+.linkedin {
+    background-color: #0077ba;
+}
+
+@keyframes extends {
+    0%{
+        width: 50px;
+    }
+    100%{
+        width: 70px;
+    }
+}
