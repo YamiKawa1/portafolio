@@ -2,14 +2,13 @@
    width: 100%;
 }
 
-.navbar-self>ul>li>a {
+.navbar-self>ul>li>button>a {
     text-decoration: none;
     color: #8a8a8a;
-    width: auto; 
     padding: 1vh;
 }
 
-.navbar-self>ul>li>a:hover {
+.navbar-self>ul>li>button:hover {
     background-color: rgba(103, 99, 99, 0.5);
     border-bottom: 2px solid rgba(217, 17, 17, 0.9);
 }

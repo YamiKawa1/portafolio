@@ -7,10 +7,14 @@ function Navbar() {
     <div className='navbar-self'>
         <ul>
             <li>
+              <button className='btn'>
                 <Link to="/" className="">Home</Link>
+              </button>
             </li>
             <li>
+              <button className='btn'>
                 <Link to="/portafolio" className="">Portafolio</Link>
+              </button>
             </li>
         </ul>
     </div>

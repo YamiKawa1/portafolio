@@ -1,8 +1,13 @@
 import React from 'react'
+import './Abilities.css'
 
 function Abilities() {
   return (
-    <div>Abilities</div>
+    <div className='abilities'>
+        <div className='ability'>
+Nodejs
+        </div>
+    </div>
   )
 }
 

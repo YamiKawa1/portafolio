@@ -1,0 +1,10 @@
+.abilities {
+    color: #8a8a8a;
+    height: 30vh;
+    width: 80vw;
+}
+
+.ability {
+    height: 50px;
+    width: 50px;
+}
