@@ -1,5 +1,7 @@
 .navbar-self{
    width: 100%;
+   position: absolute;
+   top: 0px;
 }
 
 .navbar-self>ul>li>button>a {

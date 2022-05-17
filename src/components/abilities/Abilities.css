@@ -1,10 +1,27 @@
-.abilities {
+.main-abilities{
+    width: 70vw;
+    height: auto;
+    margin: 10vh auto;
     color: #8a8a8a;
-    height: 30vh;
-    width: 80vw;
 }
 
-.ability {
-    height: 50px;
-    width: 50px;
+.abilities {
+    background-color: rgba(103, 99, 99, 0.2);;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.ability { 
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.ability>img {
+    border-radius: 50%;
+    max-height: 3.5em;
+    max-width: 3.5em;
 }
