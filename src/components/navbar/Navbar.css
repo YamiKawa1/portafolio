@@ -2,7 +2,22 @@
    width: 100%;
 }
 
-.navbar-self>nav>ul{
-    display: inline;
+.navbar-self>ul>li>a {
+    text-decoration: none;
+    color: #8a8a8a;
+    width: auto; 
+    padding: 1vh;
+}
+
+.navbar-self>ul>li>a:hover {
+    background-color: rgba(103, 99, 99, 0.5);
+    border-bottom: 2px solid rgba(217, 17, 17, 0.9);
+}
+
+.navbar-self>ul{
+    padding: 0;
+    display: flex;
+    flex-direction: row;
     list-style: none;
+    justify-content: center;
 }
