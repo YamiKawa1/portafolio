@@ -4,7 +4,7 @@ import {data} from './AbilitiesData'
 
 const makeAbilities = data.map(ability => {
     return (
-      <div className='ability'>
+      <div className='ability' key={ability.name}>
         <img src={ability.img} alt="" />
         <small>{ability.name}</small>
       </div>

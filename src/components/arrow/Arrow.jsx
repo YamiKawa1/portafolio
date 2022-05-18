@@ -7,8 +7,8 @@ function Arrow(props) {
     return (
       <div className='arrow-right'>
         <Link to={props.link}>
-          <button class="btn botton-self">
-              <span class="carousel-control-next-icon"></span>
+          <button className="btn botton-self">
+              <span className="carousel-control-next-icon"></span>
           </button>
         </Link>    
         </div>
@@ -17,8 +17,8 @@ function Arrow(props) {
   return (
     <div className='arrow-left'>
       <Link to={props.link}>
-        <button class="btn botton-self">
-          <span class="carousel-control-prev-icon"></span>
+        <button className="btn botton-self">
+          <span className="carousel-control-prev-icon"></span>
         </button>
       </Link>    
       </div>

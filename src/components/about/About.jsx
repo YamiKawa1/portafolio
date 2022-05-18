@@ -9,8 +9,7 @@ function About() {
       por las maravillas de la tecnologia y todo lo que se puede lograr con estas.
       Han pasado alrededor de 2 anos desde que empece en el mundo de la programacion y 
       aunque me reconozca como fullstack, mi punto fuerte y por el cual siento una 
-      gran atraccion, es por el <strong>backend</strong>.
-      </p>
+      gran atraccion, es por el <strong>backend</strong></p>
       <br />
       <h5>Quieres descargar mi curriculum?</h5>
       <h5>Aqui lo tienes</h5>

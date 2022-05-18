@@ -1,0 +1,17 @@
+.main-showCases{
+    width: 70vw; 
+    height: auto;
+    margin: 10vh auto;
+    color: #8a8a8a;
+}
+
+.main-showCase { 
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-card {
+    background-color: rgba(103, 99, 99, 0.2);
+    color: #8a8a8a ;
+    width: 18rem;
+}
